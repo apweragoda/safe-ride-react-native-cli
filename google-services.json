@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "945004954251",
+    "project_id": "safe-ride-3c0f3",
+    "storage_bucket": "safe-ride-3c0f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945004954251:android:4f7cbad13e83a884fc0a8e",
+        "android_client_info": {
+          "package_name": "com.kdu.saferide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887202519021-2dea39f983qf2h2sl90ru32048s8gb60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjoDleOL29IesbrgmUrVIM2v3d5TM62l0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887202519021-11851hl38v45bevdh1n29tqukd72h7gp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
