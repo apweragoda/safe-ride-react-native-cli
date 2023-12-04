@@ -1,10 +1,17 @@
-// const config = {
-//   resolver: {
-//     sourceExts: ['js', 'ts', 'tsx', 'svg'],
-//   },
-// };
-const { getDefaultConfig } = require("expo/metro-config");
+/**
+ * Metro configuration for React Native
+ * https://github.com/facebook/react-native
+ *
+ * @format
+ */
 
-const config = getDefaultConfig(__dirname);
-
-module.exports = config;
+module.exports = {
+  transformer: {
+    getTransformOptions: async () => ({
+      transform: {
+        experimentalImportSupport: false,
+        inlineRequires: true,
+      },
+    }),
+  },
+};
